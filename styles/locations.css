@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/****** HEADER START *******/
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(12, 11, 11);
+  position: fixed;
+}
+
+.header-wrapper {
+ display: flex;
+ justify-content: flex-end;
+ width: 90%;
+ margin: 0 auto;
+}
+.baiano-logo {
+  margin-right: auto;
+}
+.baiano-logo img {
+  height: 80px;
+  width: 80px;
+}
+.header-nav-bar {
+  display: flex;
+  padding-top: 24px;
+  margin-right: 20px;
+}
+.header-nav-bar ul a {
+  text-decoration: none;
+}
+.header-nav-bar ul li {
+  display: inline;
+  color: white;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  margin: 0 13px;
+  cursor: pointer;
+  transition: 320ms;
+
+}
+.header-nav-bar ul li:hover {
+  color: rgb(163, 7, 7);
+}
+.header-social-media-links {
+  padding-top: 24px;
+}
+.header-social-media-links ul li {
+  color: white;
+  list-style: none;
+  display: inline;
+  margin: 0 13px;
+  transition:
+}
+.header-social-media-links ul li i {
+  transition: 320ms;
+  cursor: pointer;
+}
+.header-social-media-links ul li i:hover {
+  color: rgb(163,7,7);
+}
+/******* HEADER END *******/
+
+/****** MAIN BEGIN ******/
+.main {
+  background: url(../img/empty-bar.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.locations-wrapper {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.main-title {
+  color: white;
+  font-size: 62px;
+  font-family: lato, sans-serif;
+}
+.btn-wrapper {
+  margin: 50px auto;
+  width: 60%;
+  display: flex;
+  justify-content:space-around;
+}
+
+.btn-wrapper button {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 62px;
+  background: Transparent;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  border: 2px solid white;
+  transition-duration: 250ms;
+  cursor: pointer;
+}
+
+.btn-wrapper  button:hover {
+  background-color: white;
+  color: rgb(97, 93, 97);
+}
+
+.location-info-container {
+  background-image: url(../img/grey-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 66px;
+}
+.location-info-container hr {
+  width: 46px;
+  margin: 28px 0;
+}
+.location-info-container p {
+  padding: 3px 0;
+}
+.location-info-container h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.location-info-container h4 {
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+.location-text-styling {
+font-family: lato, sans-sans-serif;
+color: white;
+font-weight: 500;
+}
+.location-text-styling span {
+  color: rgb(171, 8, 8);
+  font-weight: 600;
+}
+.location-flex-item {
+  margin: 0 40px;
+}
+  .social-media-banner {
+    background: black;
+    width: 100%;
+    height:80px ;
+  }
+  .sm-links-wrapper {
+    width: 44%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .sm-container {
+    margin: 0 60px;
+  }
+  .sm-link {
+    list-style: none;
+    margin-top: 30px;
+  }
+  .sm-link p {
+    color: white;
+    display: inline;
+  }
+  .sm-link i {
+    color: rgb(221, 53, 53);
+    padding: 0 4px;
+  }
+
+  .footer {
+    width: 100%;
+    height: 80px;
+    background-color:rgb(55, 55, 55);
+  }
+  .footer p {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: lato, sans-serif;
+    text-align: center;
+  }
+  .creator-name-footer span {
+    color: rgb(171, 8, 8);
+  }
+
+  .copyright-footer {
+    padding: 10px 0;
+  }

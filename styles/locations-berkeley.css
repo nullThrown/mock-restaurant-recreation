@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+/***** HEADER BEGIN ****/
+.header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(12, 11, 11);
+  position: fixed;
+}
+.header-wrapper {
+ display: flex;
+ justify-content: flex-end;
+ width: 90%;
+ margin: 0 auto;
+}
+.baiano-logo {
+  margin-right: auto;
+}
+.baiano-logo img {
+  height: 80px;
+  width: 80px;
+}
+.header-nav-bar {
+  display: flex;
+  padding-top: 24px;
+  margin-right: 20px;
+}
+.header-nav-bar ul a {
+  text-decoration: none;
+}
+.header-nav-bar ul li {
+  display: inline;
+  color: white;
+  font-size: 15px;
+  font-family: lato, sans-serif;
+  font-weight: 600;
+  margin: 0 13px;
+  cursor: pointer;
+  transition: 320ms;
+}
+.header-nav-bar ul li:hover {
+  color: rgb(163, 7, 7);
+}
+.header-social-media-links {
+  padding-top: 24px;
+}
+.header-social-media-links ul li {
+  color: white;
+  list-style: none;
+  display: inline;
+  margin: 0 13px;
+  transition:
+}
+.header-social-media-links ul li i {
+  transition: 320ms;
+  cursor: pointer;
+}
+.header-social-media-links ul li i:hover {
+  color: rgb(163,7,7);
+}
+/****** HEADER END ******/
+
+/***** MAIN BEGIN *****/
+.main-banner {
+  background-image: url(../img/salad.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.main-banner h1 {
+  text-align: center;
+  padding-bottom: 40px;
+
+}
+.main-section {
+  width: 100%;
+  height: 760px;
+  background-color: rgb(22, 24, 23);
+}
+.main-wrapper {
+  margin: 0 auto;
+  width: 1112px;
+  display: flex;
+  justify-content: left;
+  padding-top: 54px;
+}
+.store-info-container {
+  padding-right: 24px;
+}
+.store-info-container h2{
+  color: white;
+  font-size: 22px;
+  font-family: lato, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+
+}
+.store-info-container p {
+  color: white;
+  font-family: lato, sans-serif;
+}
+.store-numbers  {
+  text-align: center;
+  color: rgb(203, 0, 0);
+}
+
+.store-info-container button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 270px;
+  height: 44px;
+  font-family: lato, sans-serif;
+  font-size: 18px;
+  color: rgb(85, 86, 87);
+  cursor: pointer;
+}
+.store-info-container hr {
+  color: white;
+  margin: 30px 0;
+}
+.map-container {
+  width: 84%;
+}
+.map-container img {
+  height: 600px;
+  background-size: cover;
+}
+.map-container h2 {
+  text-align: center;
+  color: white;
+  font-family: lato, sans-serif;
+  padding-bottom: 8px;
+
+}
+.location-info-container {
+  background-image: url(../img/grey-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  padding-top: 66px;
+}
+.location-info-container hr {
+  width: 46px;
+  margin: 28px 0;
+}
+.location-info-container p {
+  padding: 3px 0;
+}
+.location-info-container h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.location-info-container h4 {
+  padding: 12px 0;
+  text-transform: uppercase;
+}
+.location-text-styling {
+font-family: lato, sans-sans-serif;
+color: white;
+font-weight: 500;
+}
+.location-text-styling span {
+  color: rgb(171, 8, 8);
+  font-weight: 600;
+}
+.location-flex-item {
+  margin: 0 40px;
+}
+.social-media-banner {
+  background: black;
+  width: 100%;
+  height:80px ;
+}
+.sm-links-wrapper {
+  width: 44%;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.sm-container {
+  margin: 0 60px;
+}
+.sm-link {
+  list-style: none;
+  margin-top: 30px;
+}
+.sm-link p {
+  color: white;
+  display: inline;
+}
+.sm-link i {
+  color: rgb(221, 53, 53);
+  padding: 0 4px;
+}
+
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color:rgb(55, 55, 55);
+
+}
+.footer p {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: lato, sans-serif;
+  text-align: center;
+}
+.creator-name-footer span {
+  color: rgb(171, 8, 8);
+}
+
+.copyright-footer {
+  padding: 10px 0;
+}

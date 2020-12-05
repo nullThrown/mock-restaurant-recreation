@@ -1,0 +1,154 @@
+/* font-family: 'Lato', sans-serif;
+font-family: 'Baloo 2', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pizza-logo {
+  height: 80px;
+  width: 90px;
+  margin-left: 40px;
+}
+.nav-links {
+  margin: auto ;
+  margin-left: 40px;
+}
+.nav-links a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+.nav-links a li  {
+  color: white;
+  display: inline-block;
+  font-family: 'Baloo 2', cursive;
+  font-size: 18px;
+}
+
+.social-media-links li {
+  color: white;
+  list-style: none;
+  display: inline-block;
+}
+.welcome-sect {
+  height: 1000px;
+  background: url(../img/pizza.jpeg);
+  background-size: cover;
+
+}
+.welcome-container {
+  margin: 230px 0;
+  text-align: center;
+}
+.welcome-title {
+  text-align: center;
+  color: white;
+  font-size: 58px;
+  font-family:'Arvo', serif;
+  font-weight: 300;
+  text-transform:uppercase;
+
+}
+
+.title-underline {
+  border: 2px solid white;
+  width: 186px;
+  margin: 20px auto;
+}
+
+.order-button {
+  margin: 30px 0;
+  width: 188px;
+  height: 68px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border: 2px solid white;
+  cursor: pointer;
+  display: inline-block;
+  transition-duration: 300ms;
+}
+
+.order-button:hover {
+  background-color: white;
+  color: rgb(131, 130, 135);
+}
+
+.review-sect {
+  height: 1000px;
+  background-image: url(../img/cake.jpeg);
+  background-size: cover;
+}
+
+.review-title {
+  color: white;
+  text-align: center;
+  font-size: 58px;
+  font-family:'Arvo', serif;
+  font-weight: 300;
+  text-transform:uppercase;
+  padding: 300px 0 60px;
+
+}
+
+#review {
+  color: white;
+  font-size: 24px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+  text-align: center;
+
+}
+
+#reviewer-name {
+text-align:center;
+color: rgb(117, 9, 11);
+font-size: 24px;
+font-family: 'Lato', sans-serif;
+font-weight: 600;
+text-align: center;
+padding: 20px 0;
+}
+
+.review-buttons {
+  text-align: center;
+
+}
+
+.button1 {
+  color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border-color: white;
+}
+
+.button2 {
+  color: white;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border-color: white;
+}
+
+.restaurant-info-sect {
+  background: url(../img/gravel-background.jpeg);
+  background-size: cover;
+  height: 600px;
+}
+
+.restaurant-info-location {
+  color: white;
+  font-size: 22px;
+}
